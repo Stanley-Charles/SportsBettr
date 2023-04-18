@@ -3,6 +3,14 @@
     {
       "id": "Login ",
       "isDefault": true
+    },
+    {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "AdminDashboard",
+      "isDefault": false
     }
   ],
   "viewMode": false,
