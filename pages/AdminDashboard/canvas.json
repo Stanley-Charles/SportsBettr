@@ -40,9 +40,6 @@
                   "key": "accentColor"
                 },
                 {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "boxShadow"
                 },
                 {
@@ -89,16 +86,16 @@
                   "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
               },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681923829255,
+              "borderRadius": "0px",
+              "columnUpdatedAt": 1681924710577,
               "defaultSelectedRowIndices": [
                 0
               ],
               "widgetName": "AllSportsBettrPosts",
               "defaultPageSize": 0,
               "columnOrder": [
-                "Content",
-                "PostID"
+                "PostID",
+                "Content"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -106,7 +103,9 @@
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
-                "status": 85
+                "status": 85,
+                "Content": 152,
+                "PostID": 86
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -206,9 +205,6 @@
                   "key": "accentColor"
                 },
                 {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "boxShadow"
                 },
                 {
@@ -258,17 +254,17 @@
                   "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
               },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681924525342,
+              "borderRadius": "0px",
+              "columnUpdatedAt": 1681924729848,
               "defaultSelectedRowIndices": [
                 0
               ],
               "widgetName": "AllSportsBettrUsers",
               "defaultPageSize": 0,
               "columnOrder": [
+                "UserId",
                 "FirstName",
-                "LastName",
-                "UserId"
+                "LastName"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -276,7 +272,9 @@
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
-                "status": 85
+                "status": 85,
+                "UserId": 89,
+                "FirstName": 117
               },
               "parentRowSpace": 10,
               "hideCard": false,

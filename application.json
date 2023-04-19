@@ -11,6 +11,10 @@
     {
       "id": "AdminDashboard",
       "isDefault": false
+    },
+    {
+      "id": "Post",
+      "isDefault": false
     }
   ],
   "viewMode": false,
