@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "AdminLogin",
+    "slug": "adminlogin",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         },
         "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "AdminLogin",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "643ef9dbfc2c1224e6b5d45c_643f1330fc2c1224e6b5d46e"
+  "gitSyncId": "643ef9dbfc2c1224e6b5d45c_64402e32eca9bb108dbf0c62"
 }
