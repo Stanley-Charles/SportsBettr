@@ -5,10 +5,6 @@
       "isDefault": true
     },
     {
-      "id": "VerifiedUserLogin",
-      "isDefault": false
-    },
-    {
       "id": "AdminDashboard",
       "isDefault": false
     },
