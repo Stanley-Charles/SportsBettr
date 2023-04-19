@@ -19,6 +19,14 @@
     {
       "id": "AdminLogin",
       "isDefault": false
+    },
+    {
+      "id": "VerifiedUser Login",
+      "isDefault": false
+    },
+    {
+      "id": "MyStuff",
+      "isDefault": false
     }
   ],
   "viewMode": false,
