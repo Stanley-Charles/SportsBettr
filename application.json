@@ -23,6 +23,10 @@
     {
       "id": "EditPost",
       "isDefault": false
+    },
+    {
+      "id": "Page Delete",
+      "isDefault": false
     }
   ],
   "viewMode": false,
