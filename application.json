@@ -9,10 +9,6 @@
       "isDefault": false
     },
     {
-      "id": "Post",
-      "isDefault": false
-    },
-    {
       "id": "AdminLogin",
       "isDefault": false
     },
