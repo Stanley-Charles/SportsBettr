@@ -123,7 +123,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "AdminId",
+                      "widgetName": "UserId",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -184,7 +184,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "AdminPassword",
+                      "widgetName": "UserPassword",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -247,7 +247,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{Api2.run(() => navigateTo('AdminDashboard', {}, 'SAME_WINDOW'), () => showAlert('Incorrect Credentials'))}}",
+                      "onClick": "{{Login.run(() => navigateTo('MyStuff', {}, 'SAME_WINDOW'), () => showAlert('incorrect Credentials'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
