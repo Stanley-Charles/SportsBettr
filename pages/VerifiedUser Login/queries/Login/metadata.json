@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Login",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/s/login"
+        "url": "web:4000/vu/login"
       },
       "invalids": [],
       "messages": [],
@@ -60,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "VerifiedUser Login_Api1",
+  "id": "VerifiedUser Login_Login",
   "deleted": false,
-  "gitSyncId": "64404d2982116d049a103ebb_6440529f82116d049a103ed2"
+  "gitSyncId": "64404d2982116d049a103ebb_6440811a82116d049a103efe"
 }
