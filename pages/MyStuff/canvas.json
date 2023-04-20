@@ -143,7 +143,11 @@
               "parentRowSpace": 10,
               "hideCard": false,
               "parentColumnSpace": 14.0625,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "primaryColumns.customColumn1.onClick"
+                }
+              ],
               "borderWidth": "1",
               "primaryColumns": {
                 "Content": {
@@ -380,7 +384,8 @@
                   "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
                   "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
                   "customAlias": "",
-                  "buttonLabel": "Edit"
+                  "buttonLabel": "Edit",
+                  "onClick": "{{navigateTo('EditPost', {}, 'SAME_WINDOW')}}"
                 }
               },
               "key": "epa3dg89vi",

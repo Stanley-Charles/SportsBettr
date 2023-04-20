@@ -19,6 +19,10 @@
     {
       "id": "MyStuff",
       "isDefault": false
+    },
+    {
+      "id": "EditPost",
+      "isDefault": false
     }
   ],
   "viewMode": false,
