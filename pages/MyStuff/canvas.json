@@ -716,7 +716,7 @@
               "isDisabled": false,
               "key": "ih2p42z6gh",
               "isDeprecated": false,
-              "rightColumn": 42,
+              "rightColumn": 39,
               "isDefaultClickDisabled": true,
               "widgetId": "hax7cofiv5",
               "minWidth": 120,
@@ -738,6 +738,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button2",
+              "onClick": "{{navigateTo('Page Delete', {}, 'SAME_WINDOW')}}",
               "buttonColor": "#be185d",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -745,15 +746,19 @@
                 "click",
                 "submit"
               ],
-              "topRow": 11,
-              "bottomRow": 19,
+              "topRow": 13,
+              "bottomRow": 24,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 14.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 46,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 29,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -763,7 +768,7 @@
               "isDisabled": false,
               "key": "26gw139tjk",
               "isDeprecated": false,
-              "rightColumn": 64,
+              "rightColumn": 52,
               "isDefaultClickDisabled": true,
               "widgetId": "bmr46h6ta9",
               "minWidth": 120,
